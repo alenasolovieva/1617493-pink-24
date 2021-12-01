@@ -1,6 +1,6 @@
 # Личный проект «Пинк» 
 
-* Студент: [Алена  Соловьева](https://up.htmlacademy.ru/adaptive/24/user/1617493).
+* Студент: [Алена Соловьева](https://up.htmlacademy.ru/adaptive/24/user/1617493).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 ---
 
