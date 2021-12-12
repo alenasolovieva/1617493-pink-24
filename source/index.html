@@ -28,11 +28,9 @@
         </ul>
       </div>
     </nav>
-  </header>
-  <main class="main">
     <section class="intro intro--index">
       <div class="intro__wrapper">
-        <h1 class="intro__tagline">Взгляните на жизнь иначе!</h1>
+        <h1 class="intro__title">Взгляните на жизнь иначе!</h1>
         <div class="download">
           <a class="download__button" href="https://apps.apple.com/ru/genre/ios/id36">Скачать приложение</a>
           <ul class="download__list">
@@ -50,10 +48,11 @@
         </div>
       </div>
     </section>
+  </header>
+  <main class="main">
     <section class="advantages">
       <div class="advantages__wrapper">
-        <h2 class="visually-hidden">Преимущества приложения</h2>
-        <h2 class="advantages__slogan">Устали от серости<br>мегаполиса?</h2>
+        <h2 class="advantages__slogan">Устали от серости мегаполиса?</h2>
         <h2 class="advantages__slogan">Нам есть, что вам<br>предложить!</h2>
         <ul class="advantages__list">
           <li class="advantages__item advantages__item--mood">
@@ -85,32 +84,24 @@
     <section class="reviews">
       <div class="reviews__wrapper slider">
         <h2 class="visually-hidden">Отзывы</h2>
-        <div class="reviews__list slider__list">
-          <blockquote class="reviews__item slider__reviews">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name">Николай Петров</cite>
-              <p class="reviews__author-about">25 лет, водитель трамвая</p>
+        <ul class="reviews__list">
+          <li class="reviews__item slider__reviews">
+              <cite class="reviews__author">Николай Петров</cite>
+              <p class="reviews__about-author">25 лет, водитель трамвая</p>
               <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
                 серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-            </div>
-          </blockquote>
-          <blockquote class="reviews__item slider__reviews">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name">Иван Васильев</cite>
-              <p class="reviews__author-about">30 лет, разработчик</p>
+          </li>
+          <li class="reviews__item slider__reviews">
+              <cite class="reviews__author">Иван Васильев</cite>
+              <p class="reviews__about-author">30 лет, разработчик</p>
               <p class="reviews__text">«Здорово,супер,круто!»</p>
-            </div>
-          </blockquote>
-          <blockquote class="reviews__item slider__reviews">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name">Анна Дунина</cite>
-              <p class="reviews__author-about">17 лет, школьница</p>
+          </li>
+          <li class="reviews__item slider__reviews">
+              <cite class="reviews__author">Анна Дунина</cite>
+              <p class="reviews__about-author">17 лет, школьница</p>
               <p class="reviews__text">«Мне понравилось!»</p>
-            </div>
-          </blockquote>
-          <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-          <button class="reviews__next" type="button">Следующий отзыв</button>
-        </div>
+          </li>
+        </ul>
         <p class="reviews__toggles slider__toggles">
           <button class="slider__toggle slider__toggle--current" type="button">1</button>
           <button class="slider__toggle" type="button">2</button>
@@ -149,8 +140,6 @@
             <td class="price__field price__field--yes">Да</td>
           </tr>
         </table>
-        <button class="price__prev" type="button">Предыдущая цена</button>
-        <button class="price__next" type="button">Следующая цена</button>
         <p class="price__toggles slider__toggles">
           <button class="slider__toggle" type="button">1</button>
           <button class="slider__toggle slider__toggle--current" type="button">2</button>
@@ -159,25 +148,27 @@
       </div>
     </div>
   </main>
-  <footer class="footer">
-    <div class="footer__wrapper">
-      <div class="footer__contacts contacts">
-        <h4 class="contacts__slogan">Остались вопросы?<br>Свяжитесь с нами!</h4>
-        <div class="footer__phone">
-          <p class="contacts__title">Звоните:</p>
-          <a class="contacts__text" href="tel:+78125556666"> +7 (812) 555-66-66</a>
+  <section class="contacts">
+    <div class="contacts__wrapper">
+        <h4 class="contacts__title">Остались вопросы?<br>Свяжитесь с нами!</h4>
+        <div class="contacts__phone">
+          <p class="contacts__parameter">Звоните:</p>
+          <a class="contacts__value" href="tel:+78125556666"> +7 (812) 555-66-66</a>
         </div>
-        <div class="footer__address">
-          <p class="contacts__title">Приезжайте в гости:</p>
-          <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
+        <div class="contacts__address">
+          <p class="contacts__parameter">Приезжайте в гости:</p>
+          <p class="contacts__value">ул. Большая Конюшенная, 19/8</p>
         </div>
-        <div class="footer__mail">
-          <p class="contacts__title">Пишите:</p>
-          <p class="contacts__text">mail@htmlacademy.ru</p>
+        <div class="contacts__mail">
+          <p class="contacts__parameter">Пишите:</p>
+          <p class="contacts__value">mail@htmlacademy.ru</p>
         </div>
-        <div class="footer__map">
+        <div class="contacts__map">
           <img src="img/map-footer.png" alt="Карта офиса Пинк" width="320" height="200">
         </div>
+    </div>
+  </section>
+        <footer class="footer">
         <div class="footer__logo">
           <img src="img/logotype-footer-mobile.svg" alt="Логотип Пинк" width="145" height="40">
         </div>
@@ -200,8 +191,6 @@
             <span class="visually-hidden">Копирайт академии</span>
           </a>
         </div>
-      </div>
-    </div>
   </footer>
 </body>
 
