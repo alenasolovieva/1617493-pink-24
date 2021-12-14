@@ -1,12 +1,198 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Приложение "Пинк"</title>
+</head>
+<body class="page__body">
+  <header class="header">
+    <a class="header__logo">
+      <img src="img/logotype-mobile.svg" width="74" height="23" alt="Логотип «Пинк»">
+    </a>
+    <nav class="nav">
+      <button class="nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="nav__wrapper">
+        <ul class="nav__list site-list">
+          <li class="site-list__item">
+            <a>Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="intro intro--index">
+      <div class="intro__wrapper">
+        <h1 class="intro__title">Взгляните на жизнь иначе!</h1>
+        <div class="download">
+          <a class="download__button" href="https://apps.apple.com/ru/genre/ios/id36">Скачать приложение</a>
+          <ul class="download__list">
+            <li class="download__item">
+              <a class="download__link download__link--apple" href="https://apps.apple.com/ru/genre/ios/id36">Apple</a>
+            </li>
+            <li class="download__item">
+              <a class="download__link download__link--android" href="https://play.google.com/store?hl=ru&gl=US">Android</a>
+            </li>
+            <li class="download__item">
+              <a class="download__link download__link--windows" href="https://www.microsoft.com/ru-ru/windows/windows-10-apps">Windows</a>
+            </li>
+          </ul>
+          <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="main">
+    <section class="advantages">
+      <div class="advantages__wrapper">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <p class="advantages__slogan">Устали от серости мегаполиса?</p>
+        <p class="advantages__slogan">Нам есть, что вам<br>предложить!</p>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--mood">
+            <h3 class="advantages__title">Поднимает настроение</h3>
+            <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в
+              несколько кликов!</p>
+          </li>
+          <li class="advantages__item advantages__item--peace">
+            <h3 class="advantages__title">Меняет мир вокруг</h3>
+            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+              усилить эффект</p>
+          </li>
+          <li class="advantages__item advantages__item--friends">
+            <h3 class="advantages__title">Заводит новых друзей</h3>
+            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите
+              новых</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="effect">
+      <div class="effect__wrapper">
+        <h2 class="effect__title">Эффект на 24 часа!</h2>
+        <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от
+          использования приложения длится целые сутки!</p>
+        <a class="effect__link" href="#">Узнать больше об исследовании</a>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+              <p class="reviews__author">Николай Петров</p>
+              <p class="reviews__about-author">25 лет, водитель трамвая</p>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
+                серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </li>
+          <li class="reviews__item">
+              <p class="reviews__author">Иван Васильев</p>
+              <p class="reviews__about-author">30 лет, разработчик</p>
+              <p class="reviews__text">«Здорово,супер,круто!»</p>
+          </li>
+          <li class="reviews__item">
+              <p class="reviews__author">Анна Дунина</p>
+              <p class="reviews__about-author">17 лет, школьница</p>
+              <p class="reviews__text">«Мне понравилось!»</p>
+          </li>
+        </ul>
+        <p class="reviews__toggles">
+          <button class="reviews__toggle reviews__toggle--current" type="button">1</button>
+          <button class="reviews__toggle" type="button">2</button>
+          <button class="reviews__toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+    <div class="tariff">
+      <div class="tariff__wrapper">
+        <table class="tariff__table">
+          <tr class="tariff__header">
+            <th class="tariff__item tariff__item--empty"></th>
+            <th class="tariff__item">База<span>1,99 USD</span>
+            </th>
+            <th class="tariff__item tariff__item--hit">Стандарт<span>3,99 USD</span>
+            </th>
+            <th class="tariff__item">Анлим<span>9,99 USD</span>
+            </th>
+          </tr>
+          <tr class="tariff__body">
+            <td class="tariff__field tariff__field--empty">Розовый фильтр</td>
+            <td class="tariff__field tariff__field--yes">Да</td>
+            <td class="tariff__field tariff__field--yes">Да</td>
+            <td class="tariff__field tariff__field--yes">Да</td>
+          </tr>
+          <tr class="tariff__body">
+            <td class="tariff__field tariff__field--empty">Смайлики</td>
+            <td class="tariff__field tariff__field--no">Нет</td>
+            <td class="tariff__field tariff__field--yes">Да</td>
+            <td class="tariff__field tariff__field--yes">Да</td>
+          </tr>
+          <tr class="tariff__body">
+            <td class="tariff__field tariff__field--empty">Комментарии</td>
+            <td class="tariff__field tariff__field--no">Нет</td>
+            <td class="tariff__field tariff__field--no">Нет</td>
+            <td class="tariff__field tariff__field--yes">Да</td>
+          </tr>
+        </table>
+        <p class="tariff__toggles">
+          <button class="tariff__toggle" type="button">1</button>
+          <button class="tariff__toggle tariff__toggle--current" type="button">2</button>
+          <button class="tariff__toggle" type="button">3</button>
+        </p>
+      </div>
+    </div>
+  </main>
+  <section class="contacts">
+    <div class="contacts__wrapper">
+        <h4 class="contacts__title">Остались вопросы?<br>Свяжитесь с нами!</h4>
+        <div class="contacts__phone">
+          <p class="contacts__parameter">Звоните:</p>
+          <a class="contacts__value" href="tel:+78125556666"> +7 (812) 555-66-66</a>
+        </div>
+        <div class="contacts__address">
+          <p class="contacts__parameter">Приезжайте в гости:</p>
+          <p class="contacts__value">ул. Большая Конюшенная, 19/8</p>
+        </div>
+        <div class="contacts__mail">
+          <p class="contacts__parameter">Пишите:</p>
+          <p class="contacts__value">mail@htmlacademy.ru</p>
+        </div>
+        <div class="contacts__map">
+          <img src="img/map-footer.png" alt="Карта офиса Пинк" width="320" height="200">
+        </div>
+    </div>
+  </section>
+        <footer class="footer">
+        <div class="footer__logo">
+          <img src="img/logotype-footer-mobile.svg" alt="Логотип Пинк" width="145" height="40">
+        </div>
+        <div class="footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Твиттер</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Фейсбук</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#">Ютуб</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="visually-hidden">Копирайт академии</span>
+          </a>
+        </div>
+  </footer>
+</body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
-  </body>
 </html>
