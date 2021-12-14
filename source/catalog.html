@@ -148,16 +148,24 @@
           <button class="editor__button editor__button--contrast" type="button">Контрастность</button>
         </li>
       </ul>
-      <div class="range-controls">
-        <div class="scale">
-          <div class="bar" style="width: 80%; margin-left: 0%"></div>
-        </div>
-        <div class="toggle toggle-min" tabindex="0" style="left: 0%"></div>
-        <div class="toggle toggle-max" tabindex="0" style="left: 80%"></div>
+      <div class="filter-editor">
+        <label class="filter-editor__range">
+          от <input type="text" name="min-editor" value="0">
+        </label>
+        <label class="filter-editor__range">
+          до <input type="text" name="max-editor" value="100">
+        </label>
       </div>
+      <div class="range-controls">
+        <div class="range-controls__scale">
+          <div class="bar" style="width: 80%; margin-left: 80%"></div>
+        </div>
+        <div class="toggle toggle--min" tabindex="0" style="left: 0%"></div>
+        <div class="toggle toggle--max" tabindex="0" style="left: 80%"></div>
+      </div>
+    </div>
       <button class="editor__post" type="button">Запостить</button>
       <button class="editor__cancel" type="button">Отмена</button>
-    </div>
     </section>
   </main>
   <section class="contacts">
