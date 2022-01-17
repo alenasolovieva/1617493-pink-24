@@ -33,12 +33,10 @@
         <h1 class="page-title">Фотографии<br>пользователей</h1>
   </header>
   <main class="main">
-    <div class="main__wrapper">
       <h2 class="main__title">Взгляните на фотографии, которые выкладывают пользователи!<br>Видите, как не
         хватает ваших?</h2>
-    </div>
     <section class="gallery">
-      <h2 class="visually-hidden">Галерея фотографий пользоватлей</h2>
+      <h2 class="visually-hidden">Галерея фотографий пользователей</h2>
       <ul class="gallery__list">
         <li class="gallery__item">
           <p class="gallery-photo photo-of-the-day">Панорама дня</p>
@@ -116,10 +114,10 @@
       </ul>
     </section>
     <h3 class="gallery-finish-title">Затмите их всех!<br>Выкладывайте все, что накопилось в телефоне!</h3>
-    <section class="editor">
+    <form class="editor">
       <div class="editor__wrapper">
-      <img src="img/winter-photo.jpg" alt="Пример редактируемого фото" width="280" height="374">
-      <ul class="editor__list">
+      <a class="editor__photo" href="#"><img src="img/winter-photo.jpg" alt="Пример редактируемого фото" width="280" height="374"></a>
+      <ul class="editor__buttons">
         <li class="editor__item">
           <button class="editor__button editor__button--crop" type="button">Обрезать</button>
         </li>
@@ -130,27 +128,24 @@
           <button class="editor__button editor__button--contrast" type="button">Контрастность</button>
         </li>
       </ul>
-    <fieldset class="filter">
-      <legend class="filter__legend visually-hidden">Редактор</legend>
-      <ul class="filter__list">
-        <li class="filter__list-item">
-          <input class="filter__radio" type="radio" name="crop" id="crop" value="1">
-          <label class="filter__radio-label" for="crop">Обрезать</label>
+      <ul class="editor__ranges">
+        <li class="editor__ranges-item">
+          <input class="editor__radio" type="radio" name="crop" id="crop" value="1">
+          <label class="editor__radio-label" for="crop">Обрезать</label>
         </li>
-        <li class="filter__list-item">
-          <input class="filter__radio" type="radio" name="color" id="color" value="2">
-          <label class="filter__radio-label" for="color">Изменить цвет</label>
+        <li class="editor__ranges-item">
+          <input class="editor__radio" type="radio" name="color" id="color" value="2">
+          <label class="editor__radio-label" for="color">Изменить цвет</label>
         </li>
-        <li class="filter__list-item">
-          <input class="filter__radio" type="radio" name="contrast" id="contrast" value="3">
-          <label class="filter__radio-label" for="contrast">Контрастность</label>
+        <li class="editor__ranges-item">
+          <input class="editor__radio" type="radio" name="contrast" id="contrast" value="3">
+          <label class="editor__radio-label" for="contrast">Контрастность</label>
         </li>
       </ul>
-    </fieldset>
-      <button class="filter__button filter__button--post" type="submit">Запостить</button>
-      <button class="filter__button filter__button--cancel" type="reset">Отмена</button>
+      <button class="editor__button editor__button--post" type="submit">Запостить</button>
+      <button class="editor__button editor__button--cancel" type="reset">Отмена</button>
       </div>
-    </section>
+    </form>
   </main>
   <section class="contacts">
     <div class="contacts__wrapper">
