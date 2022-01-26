@@ -1,0 +1,27 @@
+.tariff__header {
+  background-color: $dark-blue;
+}
+
+.tariff__item--name {
+  color: $white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.tariff__item--price {
+  color: $white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.tariff__body {
+  background-color: $white;
+}
+
+.tariff__field {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}

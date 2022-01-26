@@ -17,39 +17,39 @@
       <button class="nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="nav__list site-list">
           <li class="site-list__item">
-            <a href="index.html">Главная</a>
+            <a class="nav__link" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="catalog.html">Фотографии</a>
+            <a class="nav__link" href="catalog.html">Фотографии</a>
           </li>
           <li class="site-list__item site-list__item--active">
-            <a href="form.html">Конкурс</a>
+            <a class="nav__link" href="form.html">Конкурс</a>
           </li>
           <li class="site-list__item">
-            <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <a class="nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
           </li>
         </ul>
       </div>
     </nav>
-        <h1 class="page-title">Конкурс на самое безбашенное<br>путешествие с Пинк</h1>
+        <h1 class="page-title intro">Конкурс на самое безбашенное<br>путешествие с Пинк</h1>
   </header>
   <main class="main">
-      <h2 class="page-title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль
+      <h2 class="main__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль
         на<br>вашу бонусную карту!</h2>
     <form class="form" action="https://echo.htmlacademy.ru" method="GET">
         <fieldset class="form">
           <p class="form__item form__item--surname">
             <label class="form__label" for="surname">Фамилия:</label>
-            <input class="form__input" id="surname" type="text" name="surname-human"
+            <input class="form__input area" id="surname" type="text" name="surname-human"
               placeholder="Укажите фамилию *">
           </p>
           <p class="form__item form__item--name">
             <label class="form__label" for="name">Имя:</label>
-            <input class="form__input" id="name" type="text" name="name-human" placeholder="Введите ваше имя *">
+            <input class="form__input area" id="name" type="text" name="name-human" placeholder="Введите ваше имя *">
           </p>
           <p class="form__item form__item--patronymic">
             <label class="form__label" for="patronymic">Отчество:</label>
-            <input class="form__input" id="patronymic" type="text" name="patronymic-human"
+            <input class="form__input area" id="patronymic" type="text" name="patronymic-human"
               placeholder="Ну и отчество тоже">
           </p>
         </fieldset>
@@ -84,13 +84,13 @@
         </fieldset>
         <fieldset class="form">
           <p class="form__item form__item--phone">
-            <label class="form__label" for="phone">Номер телефона</label>
-            <input class="form__input" id="phone" type="tel" name="phone-person"
+            <label class="form__label label" for="phone">Номер телефона</label>
+            <input class="form__input area" id="phone" type="tel" name="phone-person"
               placeholder="Номер, пожалуйста">
           </p>
           <p class="form__item form__item--mail">
-            <label class="form__label" for="mail">Адрес почты</label>
-            <input class="form__input" id="mail" type="email" name="mail-person"
+            <label class="form__label label" for="mail">Адрес почты</label>
+            <input class="form__input area" id="mail" type="email" name="mail-person"
               placeholder="Введите почту *">
           </p>
         </fieldset>

@@ -1,0 +1,26 @@
+.form {
+  border: none;
+}
+
+.form__legend {
+  padding: 39px 20px 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: $pink;
+  text-transform: uppercase;
+}
+
+.form__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  color: $dark-blue;
+}
+
+.submit-form__legend {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.form__list {
+  list-style: none;
+}

@@ -1,3 +1,28 @@
-body {
-  background: ff0000;
-}
+@import "variables.scss";
+@import "fonts.scss";
+@import "blocks/page.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/intro.scss";
+@import "blocks/download.scss";
+@import "blocks/advantages.scss";
+@import "blocks/effect.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-title.scss";
+@import "blocks/form.scss";
+@import "blocks/copyright.scss";
+@import "blocks/area.scss";
+@import "blocks/footer.scss";
+@import "blocks/label.scss";
+@import "blocks/main.scss";
+@import "blocks/editor.scss";
+@import "blocks/gallery.scss";
+@import "blocks/social.scss";
+@import "blocks/gallery-finish-title.scss";
+@import "blocks/post.scss";
+@import "blocks/submit-form.scss";
+@import "blocks/tariff.scss";
+@import "blocks/gallery-photo.scss";
+@import "visually-hidden.scss";

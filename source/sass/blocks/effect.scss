@@ -1,0 +1,23 @@
+.effect {
+  background-color: $white;
+}
+
+.effect__title {
+  color: $black;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.effect__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.effect__link {
+  color: $pink;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: underline;
+}
